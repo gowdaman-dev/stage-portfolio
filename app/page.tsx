@@ -1,8 +1,10 @@
 import React from "react";
-import { Hero } from "./_components/home/Hero";
+import Intro from "./_components/home/Intro";
 
 function page() {
-  return <Hero />;
+  return <div className="">
+    <Intro/>
+  </div>;
 }
 
 export default page;
